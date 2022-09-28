@@ -1,0 +1,208 @@
+['Understanding Diffusion Models: A Unified Perspective']
+https://arxiv.org/pdf/2208.11970
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Understanding Diffusion Models: A Unified Perspective.pdf
+['How to Train Your Energy-Based Models']
+https://arxiv.org/pdf/2101.03288
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 1317, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/http/client.py", line 1392, in connect
+    server_hostname=server_hostname)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/ssl.py", line 850, in _create
+    self.do_handshake()
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/ssl.py", line 1108, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1045)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "parse.py", line 356, in <module>
+    get_pdf_arxiv(url,"/Users/yirandoris/wonderful_essay/DDPM/")
+  File "parse.py", line 342, in get_pdf_arxiv
+    u = urllib.request.urlopen(pdf_download[0])
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 543, in _open
+    '_open', req)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 1319, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1045)>
+['Understanding Diffusion Models: A Unified Perspective']
+https://arxiv.org/pdf/2208.11970
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Understanding Diffusion Models: A Unified Perspective.pdf
+['How to Train Your Energy-Based Models']
+https://arxiv.org/pdf/2101.03288
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/How to Train Your Energy-Based Models.pdf
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 1317, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/http/client.py", line 1392, in connect
+    server_hostname=server_hostname)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/ssl.py", line 412, in wrap_socket
+    session=session
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/ssl.py", line 850, in _create
+    self.do_handshake()
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/ssl.py", line 1108, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1045)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "parse.py", line 356, in <module>
+    get_pdf_arxiv(url,"/Users/yirandoris/wonderful_essay/DDPM/")
+  File "parse.py", line 333, in get_pdf_arxiv
+    rep = urllib.request.urlopen(urllib.request.Request(web_site))
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 525, in open
+    response = self._open(req, data)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 543, in _open
+    '_open', req)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 503, in _call_chain
+    result = func(*args)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/opt/homebrew/anaconda3/envs/python_parse_env/lib/python3.7/urllib/request.py", line 1319, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1045)>
+['Diffusion Models in Vision: A Survey']
+https://arxiv.org/pdf/2209.04747
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Diffusion Models in Vision: A Survey.pdf
+['Understanding Diffusion Models: A Unified Perspective']
+https://arxiv.org/pdf/2208.11970
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Understanding Diffusion Models: A Unified Perspective.pdf
+['How to Train Your Energy-Based Models']
+https://arxiv.org/pdf/2101.03288
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/How to Train Your Energy-Based Models.pdf
+['Diffusion Models in Vision: A Survey']
+https://arxiv.org/pdf/2209.04747
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Diffusion Models in Vision: A Survey.pdf
+['A Survey on Generative Diffusion Model']
+https://arxiv.org/pdf/2209.02646
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/A Survey on Generative Diffusion Model.pdf
+['Diffusion Models: A Comprehensive Survey of Methods and Applications']
+https://arxiv.org/pdf/2209.00796
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Diffusion Models: A Comprehensive Survey of Methods and Applications.pdf
+['Neural Wavelet-domain Diffusion for 3D Shape Generation']
+https://arxiv.org/pdf/2209.08725
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Neural Wavelet-domain Diffusion for 3D Shape Generation.pdf
+['Can segmentation models be trained with fully synthetically generated data?']
+https://arxiv.org/pdf/2209.08256
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Can segmentation models be trained with fully synthetically generated data?.pdf
+['Blurring Diffusion Models']
+https://arxiv.org/pdf/2209.05557
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Blurring Diffusion Models.pdf
+['Soft Diffusion: Score Matching for General Corruptions']
+https://arxiv.org/pdf/2209.05442
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Soft Diffusion: Score Matching for General Corruptions.pdf
+['Improved Masked Image Generation with Token-Critic']
+https://arxiv.org/pdf/2209.04439
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Improved Masked Image Generation with Token-Critic.pdf
+['Let us Build Bridges: Understanding and Extending Diffusion Generative Models']
+https://arxiv.org/pdf/2208.14699
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Let us Build Bridges: Understanding and Extending Diffusion Generative Models.pdf
+['Frido: Feature Pyramid Diffusion for Complex Scene Image Synthesis']
+https://arxiv.org/pdf/2208.13753
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Frido: Feature Pyramid Diffusion for Complex Scene Image Synthesis.pdf
+['Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise']
+https://arxiv.org/pdf/2208.09392
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise.pdf
+['Enhancing Diffusion-Based Image Synthesis with Robust Classifier Guidance']
+https://arxiv.org/pdf/2208.08664
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Enhancing Diffusion-Based Image Synthesis with Robust Classifier Guidance.pdf
+['Your ViT is Secretly a Hybrid Discriminative-Generative Diffusion Model']
+https://arxiv.org/pdf/2208.07791
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Your ViT is Secretly a Hybrid Discriminative-Generative Diffusion Model.pdf
+['Applying Regularized Schr\\&#34;odinger-Bridge-Based Stochastic Process in Generative Modeling']
+https://arxiv.org/pdf/2208.07131
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Applying Regularized Schr\&#34;odinger-Bridge-Based Stochastic Process in Generative Modeling.pdf
+['Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning']
+https://arxiv.org/pdf/2208.04202
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning.pdf
+['Pyramidal Denoising Diffusion Probabilistic Models']
+https://arxiv.org/pdf/2208.01864
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Pyramidal Denoising Diffusion Probabilistic Models.pdf
+['Progressive Deblurring of Diffusion Models for Coarse-to-Fine Image Synthesis']
+https://arxiv.org/pdf/2207.11192
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Progressive Deblurring of Diffusion Models for Coarse-to-Fine Image Synthesis.pdf
+['Improving Diffusion Model Efficiency Through Patching']
+https://arxiv.org/pdf/2207.04316
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Improving Diffusion Model Efficiency Through Patching.pdf
+['Accelerating Score-based Generative Models with Preconditioned Diffusion Sampling']
+https://arxiv.org/pdf/2207.02196
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Accelerating Score-based Generative Models with Preconditioned Diffusion Sampling.pdf
+['SPI-GAN: Distilling Score-based Generative Models with Straight-Path Interpolations']
+https://arxiv.org/pdf/2206.14464
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/SPI-GAN: Distilling Score-based Generative Models with Straight-Path Interpolations.pdf
+['Entropy-driven Sampling and Training Scheme for Conditional Diffusion Generation']
+https://arxiv.org/pdf/2206.11474
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Entropy-driven Sampling and Training Scheme for Conditional Diffusion Generation.pdf
+['Generative Modelling With Inverse Heat Dissipation']
+https://arxiv.org/pdf/2206.13397
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Generative Modelling With Inverse Heat Dissipation.pdf
+['Diffusion models as plug-and-play priors']
+https://arxiv.org/pdf/2206.09012
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Diffusion models as plug-and-play priors.pdf
+['A Flexible Diffusion Model']
+https://arxiv.org/pdf/2206.10365
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/A Flexible Diffusion Model.pdf
+['Lossy Compression with Gaussian Diffusion']
+https://arxiv.org/pdf/2206.08889
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Lossy Compression with Gaussian Diffusion.pdf
+['Maximum Likelihood Training for Score-Based Diffusion ODEs by High-Order Denoising Score Matching']
+https://arxiv.org/pdf/2206.08265
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Maximum Likelihood Training for Score-Based Diffusion ODEs by High-Order Denoising Score Matching.pdf
+['Estimating the Optimal Covariance with Imperfect Mean in Diffusion Probabilistic Models']
+https://arxiv.org/pdf/2206.07309
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Estimating the Optimal Covariance with Imperfect Mean in Diffusion Probabilistic Models.pdf
+['Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation']
+https://arxiv.org/pdf/2206.07771
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Discrete Contrastive Diffusion for Cross-Modal and Conditional Generation.pdf
+['gDDIM: Generalized denoising diffusion implicit models']
+https://arxiv.org/pdf/2206.05564
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/gDDIM: Generalized denoising diffusion implicit models.pdf
+['How Much is Enough? A Study on Diffusion Times in Score-based Generative Models']
+https://arxiv.org/pdf/2206.05173
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/How Much is Enough? A Study on Diffusion Times in Score-based Generative Models.pdf
+['Image Generation with Multimodal Priors using Denoising Diffusion Probabilistic Models']
+https://arxiv.org/pdf/2206.05039
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Image Generation with Multimodal Priors using Denoising Diffusion Probabilistic Models.pdf
+['Accelerating Score-based Generative Models for High-Resolution Image Synthesis']
+https://arxiv.org/pdf/2206.04029
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Accelerating Score-based Generative Models for High-Resolution Image Synthesis.pdf
+['Diffusion-GAN: Training GANs with Diffusion']
+https://arxiv.org/pdf/2206.02262
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/Diffusion-GAN: Training GANs with Diffusion.pdf
+['DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps']
+https://arxiv.org/pdf/2206.00927
+Sucessful to download /Users/yirandoris/wonderful_essay/DDPM/DPM-Solver: A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps.pdf
